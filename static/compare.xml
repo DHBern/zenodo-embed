@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/locale/intl.css" type="text/css"?>
+<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">XML-Verarbeitungsfehler: Nicht definierte Entität
+Adresse: http://localhost:3000/rss.xml
+Zeile Nr. 17, Spalte 285:<sourcetext>            &lt;description&gt;&lt;p&gt;When Isidore of Seville (d. 636) wrote his Etymologiae, he hardly foresaw that his encyclopaedia will become a bestseller. More than 1500 medieval manuscripts of this work survive, a testament to its popularity. Moreover, we observe what may be termed the &amp;lsquo;wikipedization&amp;rsquo; of the Etymologiae: …&lt;/p&gt;&lt;/description&gt;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------^</sourcetext></parsererror>
