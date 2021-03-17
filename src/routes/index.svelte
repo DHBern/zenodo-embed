@@ -28,6 +28,7 @@
 			{@html entry.metadata.description}
 		</div>
 	{/each}
+	<a href="/rss.xml">rss feed!</a>
 </main>
 
 <style>
