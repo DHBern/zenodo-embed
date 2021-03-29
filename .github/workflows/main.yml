@@ -1,6 +1,5 @@
 name: Trigger Netlify Build
 on:
-  workflow_dispatch:
   schedule:
     - cron: '30 16 * * *' # Once a day
 jobs:
