@@ -10,15 +10,14 @@ export async function get(req, res, next) {
         e.metadata.description = clip(e.metadata.description, 300, {html: true, maxLines: 3})
         return e
     });*/
-    //Wed, 17 Mar 2021 16:34:25 +0000
+    //
     const dateOptions = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }
     const start = `<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 \t<channel>
-\t\t<title>https://quizzical-saha-7bc91b.netlify.app</title>
-\t\t<description>https://quizzical-saha-7bc91b.netlify.app</description>
-\t\t<pubDate>${new Date().toUTCString()}</pubDate>
-\t\t<generator>FetchRSS</generator>
+\t\t<title>Zenodo Articles</title>
+\t\t<description>shows the 10 latest zenodo articles from zenodo.org</description>
+\t\t<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 \t\t<link>https://quizzical-saha-7bc91b.netlify.app/</link>
 \t\t<image>
 \t\t\t<link>https://quizzical-saha-7bc91b.netlify.app/</link>
