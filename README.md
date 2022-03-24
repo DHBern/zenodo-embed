@@ -1,3 +1,14 @@
+# Zenodo-Feed
+
+This is a little app which generates an RSS Feed from the latest [Zenodo Articles in the Digital Medieval Webinar Repository (DMWR)](https://zenodo.org/communities/dmwr/?page=1&size=10) using [their api](https://zenodo.org/api/records/?page=1&size=10&communities=dmwr&sort=mostrecent)
+
+It is used here:
+
+- https://digitalmedievalist.wordpress.com/digital-medieval-webinar-repository/
+
+
+
+---------------------
 # sapper-template
 
 The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
