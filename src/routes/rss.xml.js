@@ -18,11 +18,11 @@ export async function get(req, res, next) {
 \t\t<title>Zenodo Articles</title>
 \t\t<description>shows the 10 latest zenodo articles from zenodo.org</description>
 \t\t<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-\t\t<link>https://quizzical-saha-7bc91b.netlify.app/</link>
+\t\t<link>https://zenodo-feed.netlify.app</link>
 \t\t<image>
-\t\t\t<link>https://quizzical-saha-7bc91b.netlify.app/</link>
-\t\t\t<url>https://www.google.com/s2/favicons?domain=https://quizzical-saha-7bc91b.netlify.app</url>
-\t\t\t<title>https://quizzical-saha-7bc91b.netlify.app</title>
+\t\t\t<link>https://zenodo-feed.netlify.app</link>
+\t\t\t<url>https://www.google.com/s2/favicons?domain=https://zenodo-feed.netlify.app</url>
+\t\t\t<title>https://zenodo-feed.netlify.app</title>
 \t\t</image>
 `;
 
