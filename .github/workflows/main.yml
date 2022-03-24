@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: POST to Build Hook
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/6061ccf3070fa9007ee7cb67
       - uses: actions/checkout@v2
-      - run: curl -X POST -d {} https://api.netlify.com/build_hooks/6061ccf3070fa9007ee7cb67
       - uses: gautamkrishnar/keepalive-workflow@master
